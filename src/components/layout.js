@@ -36,12 +36,15 @@ const Layout = ({ children }) => {
         <main>{children}</main>
         <footer
           style={{
-            marginTop: `2rem`,
+            position: `absolute`,
+            bottom: `10px`,
+            left: `0`,
+            right: `0`,
+            textAlign: "center",
           }}
         >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
+          © {new Date().getFullYear()}, Built with love{" "}
+          <a href="https://ericgit.me">ericgit.me</a>
         </footer>
       </div>
     </>

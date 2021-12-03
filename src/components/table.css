@@ -1,0 +1,29 @@
+.limiter {
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.table100 table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.table100-head {
+    background-color: #36304A;
+    width: 100%;
+    color: #fff
+}
+
+.table100 td, .table100 th {
+    text-align: left;
+    padding: 8px;
+}
+
+.table100 tbody tr:nth-child(2) {
+    background-color: #ccc;
+}
