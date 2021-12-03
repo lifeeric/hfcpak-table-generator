@@ -1,7 +1,13 @@
 .limiter {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     margin-top: 70px;
+    text-align: center;
+}
+
+.limiter h2 {
+color: red;
 }
 
 .table100 table {
@@ -11,6 +17,8 @@
     padding: 10;
     border-radius: 5px;
     overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
 }
 
 .table100-head {
@@ -20,10 +28,16 @@
 }
 
 .table100 td, .table100 th {
-    text-align: left;
+    text-align: center;
     padding: 8px;
 }
 
 .table100 tbody tr:nth-child(even) {
     background-color: #ccc;
+}
+
+.trade {
+    /* background-color: #43B97F; */
+    font-size: 19px;
+    font-weight: 900
 }

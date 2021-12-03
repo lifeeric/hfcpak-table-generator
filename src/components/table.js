@@ -4,9 +4,10 @@ import { Link } from "gatsby"
 
 import "./table.css"
 
-export const Table = ({ amount }) => {
+export const Table = ({ amount, asset }) => {
   return (
     <div class="limiter">
+      <h2>{asset}</h2>
       <div class="container-table100">
         <div class="wrap-table100">
           <div class="table100">
@@ -23,7 +24,7 @@ export const Table = ({ amount }) => {
                 {amount?.map((p, i) => (
                   <tr>
                     <td class="column1">Stage {i + 1} </td>
-                    <td class="column2">{p.trade}</td>
+                    <td class="trade">{p.trade}</td>
                     <td class="column3">{p.win}</td>
                     <td class="column4">{p.net}</td>
                   </tr>

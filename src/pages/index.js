@@ -93,7 +93,7 @@ const IndexPage = () => {
     <Layout>
       <Seo title="Home" />
       <Searchbar value={asset} setValue={updateTheAsset} />
-      <Table amount={plan} />
+      <Table amount={plan} asset={asset} />
     </Layout>
   )
 }
