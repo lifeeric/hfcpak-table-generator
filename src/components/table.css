@@ -24,6 +24,6 @@
     padding: 8px;
 }
 
-.table100 tbody tr:nth-child(2) {
+.table100 tbody tr:nth-child(even) {
     background-color: #ccc;
 }

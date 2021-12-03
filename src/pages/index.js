@@ -65,12 +65,22 @@ const IndexPage = () => {
       {
         trade: seven,
         win: win7,
-        net: win7 - seven - six - five - four - three - two - one,
+        net: (win7 - seven - six - five - four - three - two - one).toFixed(3),
       },
       {
         trade: eight,
         win: win8,
-        net: win8 - eight - seven - six - five - four - three - two - one,
+        net: (
+          win8 -
+          eight -
+          seven -
+          six -
+          five -
+          four -
+          three -
+          two -
+          one
+        ).toFixed(3),
       },
     ])
   }, [asset])
