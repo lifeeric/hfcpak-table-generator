@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `HFC PAK table generator`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    description: `HFC Pak trading strategy generator`,
     author: `@gatsbyjs`,
     siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
   },
