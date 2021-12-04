@@ -45,7 +45,9 @@ const Layout = ({ children }) => {
           }}
         >
           © {new Date().getFullYear()}, Built with love{" "}
-          <a href="https://ericgit.me">ericgit.me</a>
+          <a href="https://ericgit.me" target="_blank">
+            ericgit.me
+          </a>
         </footer>
       </div>
     </>
