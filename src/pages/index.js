@@ -91,7 +91,7 @@ const IndexPage = () => {
 
   return (
     <Layout>
-      <Seo title="Home" />
+      <Seo title="HFC Pak table generator" />
       <Searchbar value={asset} setValue={updateTheAsset} />
       <Table amount={plan} asset={asset} />
     </Layout>
