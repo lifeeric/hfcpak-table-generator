@@ -39,3 +39,34 @@ progress,
 video {
   display: inline-block;
 }
+
+.header__container {
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  margin-bottom: 2.45rem;
+  font-family: sans-serif;
+  border-bottom: 1px solid #E8E9ED;
+}
+
+.header__header {
+  width: 980px;
+  max-width: 80%;
+}
+
+.header__title {
+  margin: 0;
+}
+
+@media (max-width: 600px) {
+  .header__container {
+    height: 50px;
+    margin: 4px 0px;
+    margin-bottom: 40px;
+  }
+  .header__link {
+    font-size: 16px;
+  }
+}
