@@ -7,7 +7,7 @@
 }
 
 .limiter h2 {
-color: red;
+    color: red;
 }
 
 .table100 table {
@@ -22,7 +22,7 @@ color: red;
 }
 
 .table100-head {
-    background-color: #36304A;
+    background-color: #626067;
     width: 100%;
     color: #fff
 }
@@ -33,7 +33,7 @@ color: red;
 }
 
 .table100 tbody tr:nth-child(even) {
-    background-color: #ccc;
+    background-color: #efefef;
 }
 
 .trade {
